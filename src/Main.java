@@ -1,5 +1,6 @@
 public  class Main {
    public static void main(String[] args) {
+       System.out.println("variable");
    //wtite your code here
        var dog = 8.0;
        System.out.println(dog);
@@ -58,6 +59,7 @@ public  class Main {
        var newNumOfWorkers = numOfWorkers + 94;
        var newWorkingHours = newNumOfWorkers * 8;
        System.out.println("Если в компании работает " + newNumOfWorkers + " то всего человек " + newWorkingHours + " часов может поделено между сотрудниками");
+
 
 
 
